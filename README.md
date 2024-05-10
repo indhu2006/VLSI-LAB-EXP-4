@@ -90,6 +90,7 @@ end
 
 endmodule
 
+
 **JK FLIPFLOP**
 
 module jkff(clk,j,k,rst,q );
@@ -125,6 +126,7 @@ endcase
 end
 
 end
+
 **T FLIPFLOP**
 
 module tff(clk,reset,t,q);
@@ -158,6 +160,7 @@ end
 end
 
 endmodule
+
 **D FLIPFLOP**
 
 module dff(clk,d,rst,q );
@@ -181,6 +184,7 @@ q=d;
 end
 
 endmodule
+
 **UPDOWN COUNTER**
 
 module updown(clk,rst,up_down,count);
@@ -209,6 +213,7 @@ end
 
 endmodule
 
+
 **MOD 10 COUNTER**
 
 module mod(clk,rst,count);
@@ -232,6 +237,7 @@ count <= count +1;
 end
 
 endmodule
+
 **RIPPLE COUNTER**
 
 module ripplecounter(clk,rst,q);

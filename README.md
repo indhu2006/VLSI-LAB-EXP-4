@@ -51,7 +51,9 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 STEP:7 compare the output with truth table.
 
 **VERILOG CODE**
+
 **SR FLIPFLOP**
+
   module srff(clk,j,k,rst,q );
 
 input s,r,clk,rst;
@@ -89,6 +91,7 @@ end
 endmodule
 
 **JK FLIPFLOP**
+
 module jkff(clk,j,k,rst,q );
 
 input j,k,clk,rst;
@@ -123,6 +126,7 @@ end
 
 end
 **T FLIPFLOP**
+
 module tff(clk,reset,t,q);
 
 input clk,reset,t;
@@ -155,6 +159,7 @@ end
 
 endmodule
 **D FLIPFLOP**
+
 module dff(clk,d,rst,q );
 
 input d,clk,rst;
@@ -177,6 +182,7 @@ end
 
 endmodule
 **UPDOWN COUNTER**
+
 module updown(clk,rst,up_down,count);
 
 input clk,rst,up_down;
@@ -204,6 +210,7 @@ end
 endmodule
 
 **MOD 10 COUNTER**
+
 module mod(clk,rst,count);
 
 input clk,rst;
@@ -226,6 +233,7 @@ end
 
 endmodule
 **RIPPLE COUNTER**
+
 module ripplecounter(clk,rst,q);
 
 input clk,rst;
@@ -282,6 +290,7 @@ endmodule
 
 
 **OUTPUT WAVEFORM**
+
 SR flipflop:
 ![image](https://github.com/indhu2006/VLSI-LAB-EXP-4/assets/164912740/03d1e8ab-1f13-4603-8af5-9531c098b69a)
 JK flipflop:
@@ -297,6 +306,7 @@ Mod 10 counter:
 Ripple counter:
 ![image](https://github.com/indhu2006/VLSI-LAB-EXP-4/assets/164912740/9a5c5077-bb4b-4086-bb29-fcc9816701b5)
 
-RESULT
+**RESULT**
+
 Thus,the simulation and synthesis of SR,JK,T,D flipflops,counters by using vivado has been successfully excecuted and verified.
 
